@@ -17,6 +17,7 @@
         instance = [[self alloc]initWithBaseURL:QBBaseURL sessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
         
         instance.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"application/json", @"text/json", @"text/javascript",@"text/html",nil];
+        
     });
     return instance;
 }
