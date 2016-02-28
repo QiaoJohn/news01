@@ -89,6 +89,15 @@
         
         labelX += labelW;
         
+        //__weak typeof(label) weakLabel = label;
+        __weak typeof(self) weakSelf = self;
+        [label setClickChannel:^{
+            
+           // NSLog(@"%@--%zd",weakLabel.text,idx);
+            
+            [weakSelf.collectionView scrollToItemAtIndexPath:[NSIndexPath indexPathForItem:idx inSection:0] atScrollPosition:UICollectionViewScrollPositionCenteredHorizontally animated:NO];
+        }];
+        
         // 添加到scrowView
         [self.scrollView addSubview:label];
     }];

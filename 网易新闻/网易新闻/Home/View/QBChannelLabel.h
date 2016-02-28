@@ -10,4 +10,5 @@
 
 @interface QBChannelLabel : UILabel
 + (instancetype)chanelLabelWithTitle:(NSString *)title;
+@property (nonatomic, copy) void (^clickChannel)();
 @end

@@ -24,7 +24,17 @@
     // 设置默认的字体
     label.font = [UIFont systemFontOfSize:QBNormalFont];
     
+    label.userInteractionEnabled = YES;
+    
     return label;
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    
+    //NSLog(@"%@",self.text);
+    if (self.clickChannel) {
+        
+        self.clickChannel();
+    }
+}
 @end
