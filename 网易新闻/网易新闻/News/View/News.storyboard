@@ -9,7 +9,7 @@
         <!--News Controller-->
         <scene sceneID="3hV-76-tsg">
             <objects>
-                <tableViewController id="X3C-fG-5c8" customClass="QBNewsController" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="News" id="X3C-fG-5c8" customClass="QBNewsController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="iM4-rU-jFf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +192,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7QC-tb-nTL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1516" y="-1739"/>
+            <point key="canvasLocation" x="-1423" y="-1745"/>
         </scene>
         <!--Head Line Controller-->
         <scene sceneID="EXa-yE-dqp">

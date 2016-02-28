@@ -10,4 +10,5 @@
 
 @interface QBNewsController : UITableViewController
 
+@property (nonatomic, copy) NSString *channelId;// 频道id
 @end

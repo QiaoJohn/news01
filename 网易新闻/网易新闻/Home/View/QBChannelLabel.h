@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QBChanelLabel : UILabel
+@interface QBChannelLabel : UILabel
 + (instancetype)chanelLabelWithTitle:(NSString *)title;
 @end

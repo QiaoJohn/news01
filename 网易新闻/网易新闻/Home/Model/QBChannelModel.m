@@ -6,10 +6,10 @@
 //  Copyright © 2016年 bing. All rights reserved.
 //
 
-#import "QBChanceModel.h"
+#import "QBChannelModel.h"
 #import <YYModel.h>
 
-@implementation QBChanceModel
+@implementation QBChannelModel
 + (NSArray *)chanelDatas {
     
     NSString *path = [[NSBundle mainBundle]pathForResource:@"topic_news.json" ofType:nil];

@@ -24,7 +24,7 @@
 
 - (void)loadData {
     
-    [QBNewsModel newsDataWithURL:@"article/headline/T1348647853363/0-20.html" success:^(NSArray *news) {
+    [QBNewsModel newsDataWithURL:[NSString stringWithFormat:@"article/headline/%@/0-20.html",self.channelId] success:^(NSArray *news) {
         
         self.data = news;
         // 刷新tableView

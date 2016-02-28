@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface QBChanceModel : NSObject
+@interface QBChannelModel : NSObject
 @property (nonatomic, copy) NSString *tname;
 @property (nonatomic, copy) NSString *tid;
 

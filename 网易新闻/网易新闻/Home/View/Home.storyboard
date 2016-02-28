@@ -23,22 +23,54 @@
                                     <constraint firstAttribute="height" constant="44" id="eaF-ys-zLb"/>
                                 </constraints>
                             </scrollView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fNy-tT-U9d">
+                                <rect key="frame" x="0.0" y="108" width="320" height="460"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Bbp-CL-jkb">
+                                    <size key="itemSize" width="258" height="447"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QBChannelNewsCell" id="DPm-JJ-eAD" customClass="QBChannelNewsCell">
+                                        <rect key="frame" x="31" y="0.0" width="258" height="447"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="258" height="447"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="gCs-NU-TyF" id="jt1-pU-SjW"/>
+                                    <outlet property="delegate" destination="gCs-NU-TyF" id="r24-Lp-72d"/>
+                                </connections>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="jPv-ba-BgN" firstAttribute="top" secondItem="fi3-NE-382" secondAttribute="bottom" id="2g6-IM-gdD"/>
                             <constraint firstItem="jPv-ba-BgN" firstAttribute="leading" secondItem="jOf-FT-WC0" secondAttribute="leading" id="DrM-1J-je7"/>
                             <constraint firstAttribute="trailing" secondItem="jPv-ba-BgN" secondAttribute="trailing" id="O7Y-py-ald"/>
+                            <constraint firstItem="fNy-tT-U9d" firstAttribute="top" secondItem="jPv-ba-BgN" secondAttribute="bottom" id="cRG-wK-3qM"/>
+                            <constraint firstItem="AhX-yY-N1Y" firstAttribute="top" secondItem="fNy-tT-U9d" secondAttribute="bottom" id="rcW-Fl-Jou"/>
+                            <constraint firstItem="AhX-yY-N1Y" firstAttribute="top" secondItem="fNy-tT-U9d" secondAttribute="bottom" id="uhO-ne-bvb"/>
+                            <constraint firstItem="fNy-tT-U9d" firstAttribute="top" secondItem="jPv-ba-BgN" secondAttribute="bottom" id="uqI-sr-fLl"/>
+                            <constraint firstAttribute="trailing" secondItem="fNy-tT-U9d" secondAttribute="trailing" id="yvv-Z4-CiV"/>
+                            <constraint firstItem="fNy-tT-U9d" firstAttribute="leading" secondItem="jOf-FT-WC0" secondAttribute="leading" id="zjr-MF-bWr"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="MgO-x0-lpD"/>
                     <connections>
+                        <outlet property="collectionView" destination="fNy-tT-U9d" id="Fo8-rp-pvX"/>
+                        <outlet property="layout" destination="Bbp-CL-jkb" id="YxZ-Gs-mjD"/>
                         <outlet property="scrollView" destination="jPv-ba-BgN" id="bRY-VW-nVu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qSb-8y-RHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="582" y="413"/>
+            <point key="canvasLocation" x="273" y="439"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NDg-20-xlJ">
@@ -56,7 +88,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qUi-OC-bqu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="181" y="413"/>
+            <point key="canvasLocation" x="-124" y="446"/>
         </scene>
     </scenes>
 </document>

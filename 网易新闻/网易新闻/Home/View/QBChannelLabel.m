@@ -6,15 +6,15 @@
 //  Copyright © 2016年 bing. All rights reserved.
 //
 
-#import "QBChanelLabel.h"
+#import "QBChannelLabel.h"
 #define QBBigFont 18.f
 #define QBNormalFont 14.f
 
-@implementation QBChanelLabel
+@implementation QBChannelLabel
 
 + (instancetype)chanelLabelWithTitle:(NSString *)title {
     
-    QBChanelLabel *label = [[self alloc] init];
+    QBChannelLabel *label = [[self alloc] init];
     // 设置标题
     label.text = title;
     // 设置最大的字体
