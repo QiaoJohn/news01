@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376549C61C83281D001E5DA1 /* topic_news.json in Resources */ = {isa = PBXBuildFile; fileRef = 376549C51C83281D001E5DA1 /* topic_news.json */; };
+		376549C91C832A22001E5DA1 /* QBHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 376549C81C832A22001E5DA1 /* QBHomeController.m */; };
+		376549CB1C832AAC001E5DA1 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 376549CA1C832AAC001E5DA1 /* Home.storyboard */; };
+		376549CE1C833245001E5DA1 /* QBChanelLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 376549CD1C833245001E5DA1 /* QBChanelLabel.m */; };
 		3789A3D31C81279900531BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A3D21C81279900531BFB /* main.m */; };
 		3789A3D61C81279900531BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A3D51C81279900531BFB /* AppDelegate.m */; };
 		3789A3DE1C81279900531BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3789A3DD1C81279900531BFB /* Assets.xcassets */; };
@@ -22,11 +26,17 @@
 		3789A40B1C812A2D00531BFB /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3789A4011C812A2D00531BFB /* News.storyboard */; };
 		3789A40C1C812A2D00531BFB /* QBHeadLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A4031C812A2D00531BFB /* QBHeadLineCell.m */; };
 		3789A40D1C812A2D00531BFB /* QBNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A4051C812A2D00531BFB /* QBNewsCell.m */; };
-		3789A4101C812D2F00531BFB /* QBChanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A40F1C812D2F00531BFB /* QBChanceModel.m */; };
+		3789A4171C81671200531BFB /* QBChanceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A4151C81671200531BFB /* QBChanceModel.m */; };
 		BD685CE0939F8B3AEF946773 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E272C6EF892CAC5B57499175 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		376549C51C83281D001E5DA1 /* topic_news.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = topic_news.json; sourceTree = "<group>"; };
+		376549C71C832A22001E5DA1 /* QBHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBHomeController.h; sourceTree = "<group>"; };
+		376549C81C832A22001E5DA1 /* QBHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBHomeController.m; sourceTree = "<group>"; };
+		376549CA1C832AAC001E5DA1 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		376549CC1C833245001E5DA1 /* QBChanelLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBChanelLabel.h; sourceTree = "<group>"; };
+		376549CD1C833245001E5DA1 /* QBChanelLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBChanelLabel.m; sourceTree = "<group>"; };
 		3789A3CE1C81279900531BFB /* 网易新闻.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网易新闻.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3789A3D21C81279900531BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3789A3D41C81279900531BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +65,8 @@
 		3789A4031C812A2D00531BFB /* QBHeadLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBHeadLineCell.m; sourceTree = "<group>"; };
 		3789A4041C812A2D00531BFB /* QBNewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBNewsCell.h; sourceTree = "<group>"; };
 		3789A4051C812A2D00531BFB /* QBNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBNewsCell.m; sourceTree = "<group>"; };
-		3789A40E1C812D2F00531BFB /* QBChanceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBChanceModel.h; sourceTree = "<group>"; };
-		3789A40F1C812D2F00531BFB /* QBChanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBChanceModel.m; sourceTree = "<group>"; };
+		3789A4141C81671200531BFB /* QBChanceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBChanceModel.h; sourceTree = "<group>"; };
+		3789A4151C81671200531BFB /* QBChanceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBChanceModel.m; sourceTree = "<group>"; };
 		49779A1C2EFEAFB56A0C9181 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E272C6EF892CAC5B57499175 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE6F4FDC7FE65CC1C6A99CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,10 +114,11 @@
 		3789A3D01C81279900531BFB /* 网易新闻 */ = {
 			isa = PBXGroup;
 			children = (
-				3789A3D41C81279900531BFB /* AppDelegate.h */,
-				3789A3D51C81279900531BFB /* AppDelegate.m */,
+				3789A4111C81671200531BFB /* Home */,
 				3789A3E81C812A2000531BFB /* Tool */,
 				3789A3F31C812A2D00531BFB /* News */,
+				3789A3D41C81279900531BFB /* AppDelegate.h */,
+				3789A3D51C81279900531BFB /* AppDelegate.m */,
 				3789A3DD1C81279900531BFB /* Assets.xcassets */,
 				3789A3DF1C81279900531BFB /* LaunchScreen.storyboard */,
 				3789A3E21C81279900531BFB /* Info.plist */,
@@ -119,6 +130,7 @@
 		3789A3D11C81279900531BFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				376549C51C83281D001E5DA1 /* topic_news.json */,
 				3789A3D21C81279900531BFB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -175,8 +187,6 @@
 				3789A3FD1C812A2D00531BFB /* QBNewsImageModel.m */,
 				3789A3FE1C812A2D00531BFB /* QBNewsModel.h */,
 				3789A3FF1C812A2D00531BFB /* QBNewsModel.m */,
-				3789A40E1C812D2F00531BFB /* QBChanceModel.h */,
-				3789A40F1C812D2F00531BFB /* QBChanceModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,6 +199,44 @@
 				3789A4031C812A2D00531BFB /* QBHeadLineCell.m */,
 				3789A4041C812A2D00531BFB /* QBNewsCell.h */,
 				3789A4051C812A2D00531BFB /* QBNewsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3789A4111C81671200531BFB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3789A4121C81671200531BFB /* Controller */,
+				3789A4131C81671200531BFB /* Model */,
+				3789A4161C81671200531BFB /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3789A4121C81671200531BFB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				376549C71C832A22001E5DA1 /* QBHomeController.h */,
+				376549C81C832A22001E5DA1 /* QBHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3789A4131C81671200531BFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3789A4141C81671200531BFB /* QBChanceModel.h */,
+				3789A4151C81671200531BFB /* QBChanceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3789A4161C81671200531BFB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				376549CA1C832AAC001E5DA1 /* Home.storyboard */,
+				376549CC1C833245001E5DA1 /* QBChanelLabel.h */,
+				376549CD1C833245001E5DA1 /* QBChanelLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +278,7 @@
 		3789A3C61C81279900531BFB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QB;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = bing;
 				TargetAttributes = {
@@ -263,7 +312,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3789A3E11C81279900531BFB /* LaunchScreen.storyboard in Resources */,
+				376549CB1C832AAC001E5DA1 /* Home.storyboard in Resources */,
 				3789A40B1C812A2D00531BFB /* News.storyboard in Resources */,
+				376549C61C83281D001E5DA1 /* topic_news.json in Resources */,
 				3789A3DE1C81279900531BFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,13 +379,15 @@
 				3789A3D61C81279900531BFB /* AppDelegate.m in Sources */,
 				3789A40D1C812A2D00531BFB /* QBNewsCell.m in Sources */,
 				3789A4081C812A2D00531BFB /* QBHeadLineModel.m in Sources */,
+				376549C91C832A22001E5DA1 /* QBHomeController.m in Sources */,
 				3789A4071C812A2D00531BFB /* QBNewsController.m in Sources */,
 				3789A40C1C812A2D00531BFB /* QBHeadLineCell.m in Sources */,
 				3789A3F21C812A2000531BFB /* QBHTTPManager.m in Sources */,
-				3789A4101C812D2F00531BFB /* QBChanceModel.m in Sources */,
 				3789A3F11C812A2000531BFB /* QBApiManager.m in Sources */,
 				3789A3D31C81279900531BFB /* main.m in Sources */,
 				3789A3F01C812A2000531BFB /* NSObject+Log.m in Sources */,
+				376549CE1C833245001E5DA1 /* QBChanelLabel.m in Sources */,
+				3789A4171C81671200531BFB /* QBChanceModel.m in Sources */,
 				3789A40A1C812A2D00531BFB /* QBNewsModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

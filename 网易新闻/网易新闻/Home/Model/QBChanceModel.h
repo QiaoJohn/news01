@@ -9,5 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface QBChanceModel : NSObject
+@property (nonatomic, copy) NSString *tname;
+@property (nonatomic, copy) NSString *tid;
 
++ (NSArray *)chanelDatas;
 @end
