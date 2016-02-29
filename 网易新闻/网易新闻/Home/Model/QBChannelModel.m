@@ -10,6 +10,7 @@
 #import <YYModel.h>
 
 @implementation QBChannelModel
+
 + (NSArray *)chanelDatas {
     
     NSString *path = [[NSBundle mainBundle]pathForResource:@"topic_news.json" ofType:nil];

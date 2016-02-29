@@ -9,6 +9,7 @@
 #import "QBNewsController.h"
 #import "QBNewsModel.h"
 #import "QBNewsCell.h"
+#import "QBNewsDetailController.h"
 
 @interface QBNewsController ()
 @property (nonatomic, strong) NSArray *data;
@@ -53,15 +54,21 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    NSLog(@"显示详情页");
+    //NSLog(@"显示详情页");
     
     QBNewsModel *news = self.data[indexPath.row];
-    
+    // 初始化详情页控制器
+    QBNewsDetailController *detail = [[QBNewsDetailController alloc]init];
+    detail.newsURL = news.fullURL;
+ 
+    // push
+    [self.navigationController pushViewController:detail animated:YES];
 }
+
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
+    // 取出对应的模型
     QBNewsModel *news = self.data[indexPath.row];
-    
+
     return [QBNewsCell cellHeightWithNews:news];
 }
 @end

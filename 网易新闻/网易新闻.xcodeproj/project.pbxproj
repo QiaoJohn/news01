@@ -14,7 +14,6 @@
 		376549D11C834132001E5DA1 /* QBChannelNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 376549D01C834132001E5DA1 /* QBChannelNewsCell.m */; };
 		3789A3D31C81279900531BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A3D21C81279900531BFB /* main.m */; };
 		3789A3D61C81279900531BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A3D51C81279900531BFB /* AppDelegate.m */; };
-		3789A3DE1C81279900531BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3789A3DD1C81279900531BFB /* Assets.xcassets */; };
 		3789A3E11C81279900531BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3789A3DF1C81279900531BFB /* LaunchScreen.storyboard */; };
 		3789A3F01C812A2000531BFB /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A3EB1C812A2000531BFB /* NSObject+Log.m */; };
 		3789A3F11C812A2000531BFB /* QBApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A3ED1C812A2000531BFB /* QBApiManager.m */; };
@@ -29,6 +28,8 @@
 		3789A40D1C812A2D00531BFB /* QBNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A4051C812A2D00531BFB /* QBNewsCell.m */; };
 		3789A4171C81671200531BFB /* QBChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A4151C81671200531BFB /* QBChannelModel.m */; };
 		37ED2F601C8495CE002E3CF4 /* QBNewsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ED2F5F1C8495CE002E3CF4 /* QBNewsDetailController.m */; };
+		37ED2F621C84A639002E3CF4 /* detail.html in Resources */ = {isa = PBXBuildFile; fileRef = 37ED2F611C84A639002E3CF4 /* detail.html */; };
+		37ED2F641C84CB0C002E3CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37ED2F631C84CB0C002E3CF4 /* Assets.xcassets */; };
 		BD685CE0939F8B3AEF946773 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E272C6EF892CAC5B57499175 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +46,6 @@
 		3789A3D21C81279900531BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3789A3D41C81279900531BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3789A3D51C81279900531BFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3789A3DD1C81279900531BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3789A3E01C81279900531BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3789A3E21C81279900531BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3789A3EA1C812A2000531BFB /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
@@ -73,6 +73,8 @@
 		3789A4151C81671200531BFB /* QBChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBChannelModel.m; sourceTree = "<group>"; };
 		37ED2F5E1C8495CE002E3CF4 /* QBNewsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBNewsDetailController.h; sourceTree = "<group>"; };
 		37ED2F5F1C8495CE002E3CF4 /* QBNewsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBNewsDetailController.m; sourceTree = "<group>"; };
+		37ED2F611C84A639002E3CF4 /* detail.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = detail.html; sourceTree = "<group>"; };
+		37ED2F631C84CB0C002E3CF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49779A1C2EFEAFB56A0C9181 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E272C6EF892CAC5B57499175 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE6F4FDC7FE65CC1C6A99CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,9 +127,9 @@
 				3789A3F31C812A2D00531BFB /* News */,
 				3789A3D41C81279900531BFB /* AppDelegate.h */,
 				3789A3D51C81279900531BFB /* AppDelegate.m */,
-				3789A3DD1C81279900531BFB /* Assets.xcassets */,
 				3789A3DF1C81279900531BFB /* LaunchScreen.storyboard */,
 				3789A3E21C81279900531BFB /* Info.plist */,
+				37ED2F631C84CB0C002E3CF4 /* Assets.xcassets */,
 				3789A3D11C81279900531BFB /* Supporting Files */,
 			);
 			path = "网易新闻";
@@ -136,6 +138,7 @@
 		3789A3D11C81279900531BFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37ED2F611C84A639002E3CF4 /* detail.html */,
 				376549C51C83281D001E5DA1 /* topic_news.json */,
 				3789A3D21C81279900531BFB /* main.m */,
 			);
@@ -324,8 +327,9 @@
 				3789A3E11C81279900531BFB /* LaunchScreen.storyboard in Resources */,
 				376549CB1C832AAC001E5DA1 /* Home.storyboard in Resources */,
 				3789A40B1C812A2D00531BFB /* News.storyboard in Resources */,
+				37ED2F621C84A639002E3CF4 /* detail.html in Resources */,
+				37ED2F641C84CB0C002E3CF4 /* Assets.xcassets in Resources */,
 				376549C61C83281D001E5DA1 /* topic_news.json in Resources */,
-				3789A3DE1C81279900531BFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +507,9 @@
 			baseConfigurationReference = 49779A1C2EFEAFB56A0C9181 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.bing.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,7 +521,9 @@
 			baseConfigurationReference = EEE6F4FDC7FE65CC1C6A99CB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.bing.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
