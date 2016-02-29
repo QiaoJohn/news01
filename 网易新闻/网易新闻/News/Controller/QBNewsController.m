@@ -24,6 +24,8 @@
 
 - (void)loadData {
     
+    NSLog(@"加载频道新闻%@",self.channelId)
+    ;
     [QBNewsModel newsDataWithURL:[NSString stringWithFormat:@"article/headline/%@/0-20.html",self.channelId] success:^(NSArray *news) {
         
         self.data = news;

@@ -24,6 +24,8 @@
     // 设置默认的字体
     label.font = [UIFont systemFontOfSize:QBNormalFont];
     
+    label.textAlignment = NSTextAlignmentCenter;
+    
     label.userInteractionEnabled = YES;
     
     return label;
@@ -36,5 +38,17 @@
         
         self.clickChannel();
     }
+}
+
+- (void)setScale:(CGFloat)scale {
+    
+    CGFloat percent = (CGFloat)(QBBigFont - QBNormalFont) / QBNormalFont;
+    
+    percent = percent * scale + 1;
+    
+    self.transform = CGAffineTransformMakeScale(percent, percent);
+    
+    self.textColor = [UIColor colorWithRed:percent * scale green:0.0 blue:0.0 alpha:1.0];
+
 }
 @end

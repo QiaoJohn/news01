@@ -11,4 +11,5 @@
 @interface QBChannelLabel : UILabel
 + (instancetype)chanelLabelWithTitle:(NSString *)title;
 @property (nonatomic, copy) void (^clickChannel)();
+@property (nonatomic, assign) CGFloat scale;
 @end

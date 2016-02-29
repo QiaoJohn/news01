@@ -12,27 +12,27 @@
 
 
 @interface QBChannelNewsCell ()
-@property (nonatomic, strong) QBNewsController *news;
+//@property (nonatomic, strong) QBNewsController *news;
 @end
 
 @implementation QBChannelNewsCell
 
 
-- (void)setChannel:(QBChannelModel *)channel {
+//- (void)setChannel:(QBChannelModel *)channel {
     
-    _channel = channel;
-    // 把新闻控制器加进来
-    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"News" bundle:nil];
-    
-    QBNewsController *news = [sb instantiateInitialViewController];
-    // 加载不同的新闻
-    news.channelId = _channel.tid;
-    // 把控制器的view添加到cell上面
-    [self.contentView addSubview:news.view];
-    
-    // 设置frame
-    news.view.frame = self.contentView.bounds;
-    
-    self.news = news;
-}
+//    _channel = channel;
+//    // 把新闻控制器加进来
+//    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"News" bundle:nil];
+//    
+//    QBNewsController *news = [sb instantiateInitialViewController];
+//    // 加载不同的新闻
+//    news.channelId = _channel.tid;
+//    // 把控制器的view添加到cell上面
+//    [self.contentView addSubview:news.view];
+//    
+//    // 设置frame
+//    news.view.frame = self.contentView.bounds;
+//    
+//    self.news = news;
+//}
 @end

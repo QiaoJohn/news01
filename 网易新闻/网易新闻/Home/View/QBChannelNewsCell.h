@@ -9,9 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class QBChannelModel;
+@class QBNewsController;
 @interface QBChannelNewsCell : UICollectionViewCell
+@property (nonatomic, strong) QBNewsController *news;
+
 /**
  *  频道
  */
-@property (nonatomic, strong) QBChannelModel *channel;
+//@property (nonatomic, strong) QBChannelModel *channel;
 @end
