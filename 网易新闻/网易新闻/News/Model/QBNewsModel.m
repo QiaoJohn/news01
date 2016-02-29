@@ -18,6 +18,13 @@
              };
 }
 
+- (void)setDocid:(NSString *)docid {
+    
+    _docid = docid.copy;
+    
+    self.fullURL = [NSString stringWithFormat:@"article/%@/full.html",docid];
+}
+
 + (void)newsDataWithURL:(NSString *)url success:(void (^)(NSArray *))success {
     
     NSAssert(success != nil, @"回调不能为空");

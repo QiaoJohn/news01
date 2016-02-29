@@ -203,11 +203,8 @@
     return news;
 }
 
-
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
-    
-    
-    
+
     QBChannelLabel *currentChannel = self.scrollView.subviews[self.currentPage];
     
     __block QBChannelLabel *nextChannel;

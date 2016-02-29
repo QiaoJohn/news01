@@ -24,7 +24,7 @@
 
 - (void)loadData {
     
-    NSLog(@"加载频道新闻%@",self.channelId)
+    //NSLog(@"加载频道新闻%@",self.channelId)
     ;
     [QBNewsModel newsDataWithURL:[NSString stringWithFormat:@"article/headline/%@/0-20.html",self.channelId] success:^(NSArray *news) {
         
@@ -51,6 +51,13 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    
+    NSLog(@"显示详情页");
+    
+    QBNewsModel *news = self.data[indexPath.row];
+    
+}
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     
     QBNewsModel *news = self.data[indexPath.row];

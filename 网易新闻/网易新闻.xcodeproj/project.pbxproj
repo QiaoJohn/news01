@@ -28,6 +28,7 @@
 		3789A40C1C812A2D00531BFB /* QBHeadLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A4031C812A2D00531BFB /* QBHeadLineCell.m */; };
 		3789A40D1C812A2D00531BFB /* QBNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A4051C812A2D00531BFB /* QBNewsCell.m */; };
 		3789A4171C81671200531BFB /* QBChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3789A4151C81671200531BFB /* QBChannelModel.m */; };
+		37ED2F601C8495CE002E3CF4 /* QBNewsDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37ED2F5F1C8495CE002E3CF4 /* QBNewsDetailController.m */; };
 		BD685CE0939F8B3AEF946773 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E272C6EF892CAC5B57499175 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +71,8 @@
 		3789A4051C812A2D00531BFB /* QBNewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBNewsCell.m; sourceTree = "<group>"; };
 		3789A4141C81671200531BFB /* QBChannelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBChannelModel.h; sourceTree = "<group>"; };
 		3789A4151C81671200531BFB /* QBChannelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBChannelModel.m; sourceTree = "<group>"; };
+		37ED2F5E1C8495CE002E3CF4 /* QBNewsDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBNewsDetailController.h; sourceTree = "<group>"; };
+		37ED2F5F1C8495CE002E3CF4 /* QBNewsDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QBNewsDetailController.m; sourceTree = "<group>"; };
 		49779A1C2EFEAFB56A0C9181 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		E272C6EF892CAC5B57499175 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE6F4FDC7FE65CC1C6A99CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -177,6 +180,8 @@
 				3789A3F61C812A2D00531BFB /* QBHeadLineController.m */,
 				3789A3F71C812A2D00531BFB /* QBNewsController.h */,
 				3789A3F81C812A2D00531BFB /* QBNewsController.m */,
+				37ED2F5E1C8495CE002E3CF4 /* QBNewsDetailController.h */,
+				37ED2F5F1C8495CE002E3CF4 /* QBNewsDetailController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -380,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3789A4061C812A2D00531BFB /* QBHeadLineController.m in Sources */,
+				37ED2F601C8495CE002E3CF4 /* QBNewsDetailController.m in Sources */,
 				3789A4091C812A2D00531BFB /* QBNewsImageModel.m in Sources */,
 				3789A3D61C81279900531BFB /* AppDelegate.m in Sources */,
 				3789A40D1C812A2D00531BFB /* QBNewsCell.m in Sources */,

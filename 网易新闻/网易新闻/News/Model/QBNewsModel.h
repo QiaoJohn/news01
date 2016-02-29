@@ -31,7 +31,15 @@
  *  更多图片
  */
 @property (nonatomic, strong) NSArray<QBNewsImageModel *> *imgextra;
+/**
+ *  图片类型 1是大图，默认是0 ，小图
+ */
 @property (nonatomic, assign) NSInteger imgType;
+@property (nonatomic, copy) NSString *docid;
+/**
+ *  新闻详情
+ */
+@property (nonatomic, copy) NSString *fullURL;
 /**
  *  加载新闻数据
  *
